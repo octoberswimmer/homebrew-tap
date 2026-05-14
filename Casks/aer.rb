@@ -13,6 +13,11 @@ cask "aer" do
   desc "Apex Execution Runtime"
   homepage "https://www.octoberswimmer.com/tools/aer/"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   auto_updates true
 
   binary "aer"
