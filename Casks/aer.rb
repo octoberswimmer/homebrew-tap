@@ -2,11 +2,11 @@ cask "aer" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "1.2.0"
-  sha256 arm:          "b7f957c64e5a978a4a0ce5276f92b90f19650ce5038935b3cd10cb401c4ec392",
-         x86_64:       "923de9e29d228ae49433bcb0519476264515c2ffc74afe06c8585f2081e6e9eb",
-         arm64_linux:  "7bad4ad1e93bc2088e3a5231f828c7e94d73fac33c0d27bd36a7e4d0438c4167",
-         x86_64_linux: "42a631847236abfba59925b726ca398af6a473e1e1c0f57f74a3fe6e979c0576"
+  version "1.2.1"
+  sha256 arm:          "b82d46ba3250a9083eae41782fe9ff0c9f614a5c165a8d30e18656ac42003c9a",
+         x86_64:       "134f649c26067c914adbb7a5f42e5eb2c887533bab3c1db7458d2e54a2dbcc91",
+         arm64_linux:  "8add9e8c500d2c4fecb02fa738562b402973c6250f5accefe41c5182fdcd2cc1",
+         x86_64_linux: "75b0a1e9119dcb560f1048781b9de6641b5fa19ebbf2526c3d684857f1b3a840"
 
   url "https://github.com/octoberswimmer/aer-dist/releases/download/v#{version}/aer_#{os}_#{arch}_v#{version}.zip"
   name "aer"
