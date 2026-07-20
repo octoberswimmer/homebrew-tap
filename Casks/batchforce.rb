@@ -8,7 +8,8 @@ cask "batchforce" do
          arm64_linux:  "16f9c719b577ecbbeb9b5909dde87f5f83a0815560902de850b07ccc8c3cbf5b",
          x86_64_linux: "7e00af1df851700b3ac4ebdb2ec968a10017e6658497d922a05fa20127d5ce5d"
 
-  url "https://github.com/octoberswimmer/batchforce/releases/download/v#{version}/batchforce_#{os}_#{arch}_v#{version}.zip"
+  url "https://github.com/octoberswimmer/batchforce/releases/download/v#{version}/batchforce_#{os}_#{arch}_v#{version}.zip",
+      verified: "github.com/octoberswimmer/batchforce/"
   name "batchforce"
   desc "Make bulk updates in Salesforce using the Bulk API"
   homepage "https://www.octoberswimmer.com/tools/batchforce/"

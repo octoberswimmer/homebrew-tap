@@ -8,7 +8,8 @@ cask "apexfmt" do
          arm64_linux:  "c9b4f8562714822fee95986ffd2f9195696e6fb76602bcd0fc23f5fcc5c1ea23",
          x86_64_linux: "c9d3446d50e2708790df2cc8e2222e9601ff3300a74a97216011027089e7380f"
 
-  url "https://github.com/octoberswimmer/apexfmt/releases/download/v#{version}/apexfmt_#{os}_#{arch}_v#{version}.zip"
+  url "https://github.com/octoberswimmer/apexfmt/releases/download/v#{version}/apexfmt_#{os}_#{arch}_v#{version}.zip",
+      verified: "github.com/octoberswimmer/apexfmt/"
   name "apexfmt"
   desc "Format Apex code automatically"
   homepage "https://www.octoberswimmer.com/tools/apexfmt/"

@@ -8,7 +8,8 @@ cask "aer" do
          arm64_linux:  "91384217a3cab99ff1430c72ab77d8ebae614d3691f0f8b9c21a360aa7d70e6d",
          x86_64_linux: "10191b7c74bb4704b78d9f9659f15d6250f14d685cdcfa62abe2946aeebdd402"
 
-  url "https://github.com/octoberswimmer/aer-dist/releases/download/v#{version}/aer_#{os}_#{arch}_v#{version}.zip"
+  url "https://github.com/octoberswimmer/aer-dist/releases/download/v#{version}/aer_#{os}_#{arch}_v#{version}.zip",
+      verified: "github.com/octoberswimmer/aer-dist/"
   name "aer"
   desc "Apex Execution Runtime"
   homepage "https://www.octoberswimmer.com/tools/aer/"
