@@ -2,11 +2,11 @@ cask "aer" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "1.2.23"
-  sha256 arm:          "a03c1c59dc84faef43b3d7c45a6f57878a66295f3a4f12c3a639da7d01545066",
-         x86_64:       "968343dd89d735a6ee3914b47b13836c9338c7673c08072157056ae258d72e6d",
-         arm64_linux:  "0a77199b812574682811d07d943b44caffa25e80ebfc0df7c63473f9e3f56d4d",
-         x86_64_linux: "e6ea7f39c88055e906222c75ec692f44bd6fa60a119ac74783b7aa520b8d7c12"
+  version "1.2.24"
+  sha256 arm:          "d414ceb93992134fe0a02bea4b845966c03952e5ce39320053888e99cd6bc891",
+         x86_64:       "2538a92affb5e7f58cb98766b89394995c1dd423b830837d9c975d53cdf334f5",
+         arm64_linux:  "0e96a948f91ceb2dc28b19c4930098f8d84c6b63530526a0c35b11e0ff574ebc",
+         x86_64_linux: "8352fc146b62b082d77e861641819eaa910e00c6c0e1f534524f065a7c63c6e7"
 
   url "https://github.com/octoberswimmer/aer-dist/releases/download/v#{version}/aer_#{os}_#{arch}_v#{version}.zip",
       verified: "github.com/octoberswimmer/aer-dist/"
