@@ -2,7 +2,7 @@ cask "batchforce" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "0.10.1"
+  version "0.10.2"
   sha256 arm:          "1277462587ce73cfe0f4d9a3604f64d9105634cd3d144a52ab5c2ee8d60c58d7",
          x86_64:       "de74a4090d3e1e9827847430d70013a616aa49033ac7e14d9dcda70d6c132c37",
          arm64_linux:  "16f9c719b577ecbbeb9b5909dde87f5f83a0815560902de850b07ccc8c3cbf5b",
