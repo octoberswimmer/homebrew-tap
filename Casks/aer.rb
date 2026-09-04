@@ -2,14 +2,13 @@ cask "aer" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "1.4.0"
-  sha256 arm:          "012370e11487c0214caf806a7d5d622af9ee44083822fa5f9de2bdcdbdbcaa70",
-         x86_64:       "a3bb9a767994414b9cedf81d7ccb84df20554e00a4ec2e48fcf04e24e4435cce",
-         arm64_linux:  "7245d0ab65b53afa21eb250d523cdcc6ddf0c1c2e9d36c0cefb33cf9be2e91e5",
-         x86_64_linux: "72a280a812915d738def1355f51412fe6b047596b12b85879a7f6259c7cd5cf2"
+  version "1.4.1"
+  sha256 arm:          "0214a7a4963f12da8f00ee69c08c3f6c8e8ae7545a3c5012ca08aeb5b3d9abb8",
+         x86_64:       "77451097237ffdb478240ffa35b2490541d1d913e55e5ba84af11c5174abccf6",
+         arm64_linux:  "88e928e24682c9812e7bade196ae678bb79282d0cb1bc472077aeb588d3be983",
+         x86_64_linux: "db148102f8106785668e5a52d5107641167beac1e6ea49302d48b4a31f643247"
 
-  url "https://github.com/octoberswimmer/aer-dist/releases/download/v#{version}/aer_#{os}_#{arch}_v#{version}.zip",
-      verified: "github.com/octoberswimmer/aer-dist/"
+  url "https://github.com/octoberswimmer/aer-dist/releases/download/v#{version}/aer_#{os}_#{arch}_v#{version}.zip"
   name "aer"
   desc "Apex Execution Runtime"
   homepage "https://www.octoberswimmer.com/tools/aer/"
