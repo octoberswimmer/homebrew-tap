@@ -2,11 +2,11 @@ cask "batchforce" do
   arch arm: "arm64", intel: "amd64"
   os macos: "darwin", linux: "linux"
 
-  version "0.11.0"
-  sha256 arm:          "1277462587ce73cfe0f4d9a3604f64d9105634cd3d144a52ab5c2ee8d60c58d7",
-         x86_64:       "de74a4090d3e1e9827847430d70013a616aa49033ac7e14d9dcda70d6c132c37",
-         arm64_linux:  "16f9c719b577ecbbeb9b5909dde87f5f83a0815560902de850b07ccc8c3cbf5b",
-         x86_64_linux: "7e00af1df851700b3ac4ebdb2ec968a10017e6658497d922a05fa20127d5ce5d"
+  version "0.12.0"
+  sha256 arm:          "faf2e9e245baa8c8a6f7b23ceca762f03cc184368c51f7c79396be50514d30ba",
+         x86_64:       "dedf41d19f30e99e598383e6f969cf7daaa69b0e529178817c81db7babc9e265",
+         arm64_linux:  "45eb46d31520fd7369f99081ce5fc4a8d11c0e22f88054e6571d185fa2425a03",
+         x86_64_linux: "03fd1ceeea77269580c481ab5ffcbbc19999f5b553bb4fd6fb6770ead8290b9a"
 
   url "https://github.com/octoberswimmer/batchforce/releases/download/v#{version}/batchforce_#{os}_#{arch}_v#{version}.zip"
   name "batchforce"
